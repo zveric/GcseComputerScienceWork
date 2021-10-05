@@ -1,5 +1,5 @@
-Define and describe the internet of things
-Give examples of devices and applications (8 marks)
+#Define and describe the internet of things
+#Give examples of devices and applications (8 marks)
 
 
 The internet of things is a new generation of internet conected embedded systems which share data between themseves and a server. It helps to make ordinary devices intelligent linking them up and displaying useful insights to the user. 
