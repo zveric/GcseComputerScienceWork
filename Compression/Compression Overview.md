@@ -6,9 +6,8 @@ Codecs are the building blocks of compression. There are codecs for both lossy a
 Examples of losless codects include apples animation codec.
   
 	
-### Use the video transcript to give two examples of lossless compression (https://ccm.net/faq/40644-how-to-get-the-transcript-of-a-youtube-video)
-	
 ### Explain why data compression is important
+Compression allows media to be shared over the internet where bandwith coinstraits are an importent factor
 	
 ### Compare lossy and lossless compression - how are they the same and how are they different?
 	
