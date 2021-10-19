@@ -11,10 +11,20 @@ a.) 49,766,400 bits
 
 # Grade 4-5
 ### At 30 frames per second how many bits is this for each second (multiply the bits by 30)
+a.) 62,208,000 bits  
+
 ### And, how many bytes is this per second (there are 8 bits in a byte so divide the bits by 8 to get the bytes)
+a.) 62,208,000/8 = 7,776,000 bytes  
+
+
 # Grade 6-7
 ### Compression can reduce overall file size. If you stream or download a HD film how many GB will this need every hour? (use Google to help)
+a.) around 2-3GB per hour compressed  
+b.) but can be up to severall TB's per hour when uncompressed
+
 ### 1080p resolution takes up about 3GB for every hour of film. How many GB would you need to store all nine Star Wars films?
+
+
 # Grade 8
 ## At what resolution and frame rate can the Galaxy S20 and the iPhone record digital video.
 ### How many hours of video of this quality could you store on a 32 GB SD card?
