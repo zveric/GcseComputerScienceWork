@@ -23,8 +23,12 @@ a.) around 2-3GB per hour compressed
 b.) but can be up to severall TB's per hour when uncompressed
 
 ### 1080p resolution takes up about 3GB for every hour of film. How many GB would you need to store all nine Star Wars films?
+a.) (20 hours 39 minutes)*3 = 61.95GB
 
 
 # Grade 8
 ## At what resolution and frame rate can the Galaxy S20 and the iPhone record digital video.
+a.)
+
+
 ### How many hours of video of this quality could you store on a 32 GB SD card?
