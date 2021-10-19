@@ -1,10 +1,12 @@
 You should try and work your way up the grade ladder from grade 1-3
 # Grade 1-3
 ## How many pixels are supported by (a) 480p (b) 720p (c) 1080p HD
-
-
+a.) 852*480 = 408,960   
+b.) 1280*720 = 921,600  
+c.) 1920*1080 = 2,073,600  
 
 ### For 1080p, and for 24-bits for each pixel, how many bits are needed to store one frame (multiply the pixels by 24)
+a.) 49,766,400 bits  
 
 
 # Grade 4-5
