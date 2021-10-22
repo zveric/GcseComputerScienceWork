@@ -4,6 +4,6 @@ Watch us struggle.
 
 
 # Architecture of A Cpu
-[IOT](https://github.com/zveric/GcseComputerScienceWork/blob/main/Architecture%20of%20the%20CPU/IOT.md)                                          
-
-
+[IOT](https://github.com/zveric/GcseComputerScienceWork/tree/main/IOT)                                          
+[Memory](https://github.com/zveric/GcseComputerScienceWork/tree/main/Memory%20)
+[Compression](https://github.com/zveric/GcseComputerScienceWork/tree/main/Compression)
