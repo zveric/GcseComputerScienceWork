@@ -21,7 +21,7 @@ Binary search is
 
 ### Two factor authentication
 
-### -Iterative testing
+### Iterative testing
 
 
 
