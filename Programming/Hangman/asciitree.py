@@ -1,38 +1,38 @@
-print('ascii tree')
+trys =  4
 
-lives = 5 
-if word_there<0:
-  lives = lives - 1
-else:
-  lives = lives
+if trys == 4:
+  print("""
+      O
+     -|-
+     / \
+     """)
+elif trys == 3:
+  print("""
+      O
+     -|-
+     / \
+     ------""")
+elif trys == 2:
+  print("""
+  |     
+  |     O
+  |    -|-
+  |    / \
+  ------""")
+elif trys == 1:
+  print("""------
+  |     
+  |     O
+  |    -|-
+  |    / \
+  ------""")
+
+elif trys == 0:
+  print("""------
+  |     |
+  |     O
+  |    -|-
+  |    / \
+  ------""")
 
 
-
-
-
-
-
-print('------')
-print("""
-|
-|
-|
-|""")
-print('------')
-
-print('------')
-print("""
-|     |
-|
-|
-|""")
-print('------')
-
-
-print('------')
-print("""
-|     |
-|     O
-|
-|""")
-print('------')
