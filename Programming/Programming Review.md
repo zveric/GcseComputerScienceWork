@@ -17,12 +17,16 @@ Binary search works only with sorted algorithms. Binary search works by dividing
 ## Explain the terms below
 
 ### Input validation
+Input validation involves the checking of an input to make sure it is within the expected range. This stops the program crashing due to invalid inputs.
 
 ### Defensive design
+Defensive design is the process of designing the program so it is less likely to crash.
 
 ### Two factor authentication
+Two factor authentication involves the use of two factors to sign into an account. This makes the account much more secure.
 
 ### Iterative testing
+Iterative testing is when a program is tested at multiple stages.
 
 
 
