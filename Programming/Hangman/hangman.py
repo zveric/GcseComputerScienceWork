@@ -7,7 +7,7 @@ import random;
 #Aim Word
 
 # List of words
-words = ["comfortable", "homeless", "jobless", "juggle", "spare", "shade", "fearless", "extra-small", "guitar", "sneaky", "structure", "equable", "voiceless", "mark", "size", "furry", "cut", "mass", "psychotic", "savory", "station", "yam", "bead", "thin", "poke", "weather", "jolly", "foamy", "needle", "exotic", "seal", "bent", "immense", "exercise", "ordinary", "laughable" ,"pause", "record", "tiny", "burly", "lock"]
+words = ["comfortable", "spare", "shade","guitar", "sneaky", "mark", "size", "cut", "savory", "station", "yam", "bead", "thin", "poke", "foamy", "exotic","champ", "seal", "bent","pause", "record", "tiny", "burly", "lock", "hot", "cat", "lamp", "monitor", "play", "big","lumberjack", "boy","republican","farsighted","motherland","dermatoglyphics","uncopyrightable"]
 
 
 aim_word = (random.choice(words))
@@ -28,16 +28,27 @@ print("Welcome to Hangman")
 print ("The word is", wordlen, "letters long")
 
 
-
 while wordleft > 0:
-  guess = input("Guess a letter:")
-  letno=(aim_word.find(guess))
 
+  correctletters = ""
+  
+  
+  guess = input("Guess a letter:")
+  print("Correctly guessed letters are: ", ''.join(guess if guess in correctletters else '-' for guess in aim_word))
+
+  letno=(aim_word.find(guess))
+  guesslen=len(guess) 
+  if guesslen>1:
+    print("Please Use a Single letter")
+    exit()
+  elif guesslen<1:
+    print("Please Use a Letter")
+    exit()
   int (wordleft)
  
   if letno < 0:
-    print("That letter isnt present")
     trys = trys - 1 
+    print("That letter isnt present")
     if trys == 4:
       print("""
       O
@@ -49,35 +60,36 @@ while wordleft > 0:
         O
        -|-
        / \\
-       ------""")
+       ----""")
     elif trys == 2:
-         print("""
+      print("""
   |     
   |     O
   |    -|-
   |    / \\
-  ------""")
+  ---------""")
     elif trys == 1:
-      print("""------
+      print("""  -------
   |     
   |     O
   |    -|-
   |    / \\
-  ------""")
+  ---------""")
 
     elif trys == 0:
-      print("""------
+      print("""  -------
   |     |
   |     O
   |    -|-
   |    / \\
-  ------""")
+  ---------""")
       exit()
 
 
   else:
     print ("Well done you guessed correctly you guessed letter no:", letno+1)
     wordleft = wordleft-1
+    correctletters = correctletters + guess
     
     
 
