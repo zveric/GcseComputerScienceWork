@@ -1,41 +1,46 @@
-def merge(array, left_index, right_index, middle):
-    # Make copies of both arrays we're trying to merge
+def mergeSort(myList):
+    if len(myList) > 1:
+        mid = len(myList) // 2 #Divides Here
+        left = myList[:mid] #Left of code to mid
+        right = myList[mid:] #Mid of code to right
+        # Recursive call on each half
+        mergeSort(left)
+        mergeSort(right)
 
-    # The second parameter is non-inclusive, so we have to increase by 1
-    left_copy = array[left_index:middle + 1]
-    right_copy = array[middle+1:right_index+1]
+        # Two iterators for traversing the two halves
+        i = 0
+        j = 0
+        
+        # Iterator for the main list
+        k = 0
+        
+        while i < len(left) and j < len(right):
+            if left[i] <= right[j]:
+              # The value from the left half has been used
+              myList[k] = left[i]
+              # Move the iterator forward
+              i += 1
+            else:
+                myList[k] = right[j]
+                j += 1
+            # Move to the next slot
+            k += 1
 
-    # Initial values for variables that we use to keep
-    # track of where we are in each array
-    left_copy_index = 0
-    right_copy_index = 0
-    sorted_index = left_index
+        # For all the remaining values
+        while i < len(left):
+            myList[k] = left[i]
+            i += 1
+            k += 1
 
-    # Go through both copies until we run out of elements in one
-    while left_copy_index < len(left_copy) and right_copy_index < len(right_copy):
+        while j < len(right):
+            myList[k]=right[j]
+            j += 1
+            k += 1
 
-        # If our left_copy has the smaller element, put it in the sorted
-        # part and then move forward in left_copy (by increasing the pointer)
-        if left_copy[left_copy_index] <= right_copy[right_copy_index]:
-            array[sorted_index] = left_copy[left_copy_index]
-            left_copy_index = left_copy_index + 1
-        # Opposite from above
-        else:
-            array[sorted_index] = right_copy[right_copy_index]
-            right_copy_index = right_copy_index + 1
+myList = [54,26,93,17,77,31,33,47,92,44,55,20]
+mergeSort(myList) # Sends list to function
+print(myList)
 
-        # Regardless of where we got our element from
-        # move forward in the sorted part
-        sorted_index = sorted_index + 1
 
-    # We ran out of elements either in left_copy or right_copy
-    # so we will go through the remaining elements and add them
-    while left_copy_index < len(left_copy):
-        array[sorted_index] = left_copy[left_copy_index]
-        left_copy_index = left_copy_index + 1
-        sorted_index = sorted_index + 1
 
-    while right_copy_index < len(right_copy):
-        array[sorted_index] = right_copy[right_copy_index]
-        right_copy_index = right_copy_index + 1
-        sorted_index = sorted_index + 1
+# https://www.educative.io/edpresso/merge-sort-in-python
