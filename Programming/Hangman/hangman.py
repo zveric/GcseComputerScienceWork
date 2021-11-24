@@ -7,7 +7,7 @@ import random;
 #Aim Word
 
 # List of words
-words = ["comfortable", "spare", "shade","guitar", "sneaky", "mark", "size", "cut", "savory", "station", "yam", "bead", "thin", "poke", "foamy", "exotic","champ", "seal", "bent","pause", "record", "tiny", "burly", "lock", "hot", "cat", "lamp", "monitor", "play", "big","lumberjack", "boy","republican","farsighted","motherland","dermatoglyphics","uncopyrightable"]
+words = [ "spare", "shade","guitar", "sneaky", "mark", "size", "cut", "savory", "yam", "bead", "thin", "poke", "foamy", "exotic","champ", "seal", "bent","pause", "record", "tiny", "burly", "lock", "hot", "cat", "lamp", "monitor", "play", "big","lumberjack", "boy","republican","farsighted","motherland","dermatoglyphics","uncopyrightable"]
 
 
 aim_word = (random.choice(words))
@@ -34,7 +34,8 @@ while wordleft > 0:
   
   
   guess = input("Guess a letter:")
-  print("Correctly guessed letters are: ", ''.join(guess if guess in correctletters else '-' for guess in aim_word))
+  print("Correctly guessed letters are: ", ''.join(guess if guess
+	 in correctletters else '-' for guess in aim_word))
 
   letno=(aim_word.find(guess))
   guesslen=len(guess) 
