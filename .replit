@@ -1,2 +1,2 @@
-language = "python"
-run = "python ~/GcseComputerScienceWork/Programming/Algorithms/Sorting/insertion_sort.py"
+language = "Python"
+run = "python ~/GcseComputerScienceWork/Programming/Algorithms/Searching/linear.py"
