@@ -37,7 +37,7 @@ def mergeSort(myList):
             j += 1
             k += 1
 
-myList = [54,26,93,17,77,31,33,47,92,44,55,20]
+myList = [54,26,93,17,77,31,33,47,92,44,55,20,5342,1,90,5481,687,22,53,54,12]
 mergeSort(myList) # Sends list to function
 print(myList)
 
