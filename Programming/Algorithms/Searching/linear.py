@@ -11,19 +11,15 @@
 # Linearly search x in arr[]
 # If x is present then return its location
 # else return -1
-
 def search(arr, x):
- 
 	for i in range(len(arr)):
-    if arr[i] == x:
-      return i
+		if arr[i] == x:
+			return i
 
 	return -1
 
 arr = [ 2, 3, 4, 10, 40 ]
 x = 4
-search(arr)
-
-print("FUCK THIS SHIT I'M OUT!!!")
-#this code is bastard
+a = search(arr,x)
+print(a)
 
