@@ -8,3 +8,5 @@ Watch us struggle.
 [Compression](https://github.com/zveric/GcseComputerScienceWork/tree/main/Compression)  
 [Programming](https://github.com/zveric/GcseComputerScienceWork/tree/main/Programming)
 
+
+![Logo](https://www.sath.nhs.uk/wp-content/uploads/2019/08/CT1-300x225.jpg)
