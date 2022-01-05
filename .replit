@@ -1,2 +1,2 @@
 language = "Python"
-run = "python ~/GcseComputerScienceWork/Programming/Algorithms/Searching/linear.py"
+run = "python ~/GcseComputerScienceWork/Programming/Hangman/hangman.py"
