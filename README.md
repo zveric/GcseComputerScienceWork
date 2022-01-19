@@ -1,5 +1,5 @@
 # Gcse Computer Science Work
-Me, Dave and Will try to pass our gcses.
+Eric, Dave and Will will pass our gcses.
 Watch us struggle.
 
 
