@@ -7,6 +7,7 @@ Watch us struggle.
 [Memory](https://github.com/zveric/GcseComputerScienceWork/tree/main/Memory%20)  
 [Compression](https://github.com/zveric/GcseComputerScienceWork/tree/main/Compression)  
 [Programming](https://github.com/zveric/GcseComputerScienceWork/tree/main/Programming)
+[Networks](https://github.com/zveric/GcseComputerScienceWork/tree/main/Networking)
 
 
 https://zveric.github.io/GcseComputerScienceWork/
