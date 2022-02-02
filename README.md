@@ -11,3 +11,14 @@ Watch us struggle.
 
 
 https://zveric.github.io/GcseComputerScienceWork/
+
+
+
+
+
+
+
+
+heyo confused person reading this weird web page
+have good day
+bye
