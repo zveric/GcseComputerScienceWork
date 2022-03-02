@@ -1,0 +1,4 @@
+Compare the positive and negative effects of computing on the environment (6 marks)
+
+An advantage of computing on the environment is that it can cause less pollution due to not needing to travel as far because there are more alternatives to meeting with someone in person, for example, you could use a virtual meeting, like zoom or microsoft teams. Another advantage of using computers is that there is less of a need to use paper, or send letters, as the alternatives are much quicker and easier to use. One of these alternatives is microsoft word and then using an email to send the file to the recipient. 
+However there are still disadvantages to using technology, one of these is that it needs to be made. The process of making a computer can use lots of unrecyced materials that can, in turn, create lots of pollution from the making of the materials and the computer itself. Another disadvantage of this is that it can use lots of non-renewable resources 

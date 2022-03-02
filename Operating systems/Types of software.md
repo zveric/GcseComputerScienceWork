@@ -38,4 +38,7 @@ Or
 
 # Explain how multitasking is managed by memory management 
 
-# com
+Memory management allows multiople programs to have 
+
+
+
