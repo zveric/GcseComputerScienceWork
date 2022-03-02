@@ -2,4 +2,4 @@
 
 Computign can have positive effects on the enviroment, such as email. Emails reduce dammage to the enviroiment by stopping the need for trees to be cut down and and manufactured into paper for letters, which requires the use of chemichal agents such as bleach and release harmfull gasses into the enviroment. Emails also remove the requirement for letters to be transported between the sender and receiver via a postal service which reduce the amount of damage done to the enviroment via carbon emmisions from vehicle ehausts.
 
-Computing also cause dammage to the enviroment. This comes in several forms such
+Computing also cause dammage to the enviroment. This comes in several forms such mining precious metals and minerals, the minig of metals such as gold, copper and tin for computers and electronics causes dammage to the enviroment due to massive amounts of pollution being released to the surrounding area of mines, this is because when minig for metals large amounts of rock and dirt must be removed 
