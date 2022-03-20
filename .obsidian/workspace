@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "ca05061743585d8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e0409bef126408f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Malware/i bad sorry.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0200d7ae6cedbe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "49b15ba83b8b992c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "220dd07764fada42",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee9a80fd10381c27",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "830eeaaa6aa9dbde",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ff3919124d3f151",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3faace0f92a984bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Malware/i bad sorry.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6e0409bef126408f",
+  "lastOpenFiles": [
+    "Malware/i bad sorry.md",
+    "Malware/types_of_malware.md",
+    "IOT/Amazon IOT Devices.pdf",
+    "README.md",
+    "Compression/Compression Overview.md",
+    "Enviromental/Will's 6 mark answer.md",
+    "Ethics/Enviromental/Dave's 6 marker.md",
+    "Ethics/Enviromental/Eric's 6 mark.md",
+    "Ethics/Enviromental/Will's 6 mark answer.md"
+  ]
+}
