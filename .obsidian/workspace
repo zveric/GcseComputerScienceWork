@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Malware/i bad sorry.md",
+            "file": "Compression/Video.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware/i bad sorry.md",
+                "file": "Compression/Video.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "6e0409bef126408f",
   "lastOpenFiles": [
+    "Compression/Video.md",
     "Malware/i bad sorry.md",
     "Malware/types_of_malware.md",
     "IOT/Amazon IOT Devices.pdf",
