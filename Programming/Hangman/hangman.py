@@ -8,7 +8,8 @@ import random;
 
 # List of words
 words = [ "spare", "shade","guitar", "sneaky", "mark", "size", "cut", "savory", "yam", "bead", "thin", "poke", "foamy", "exotic","champ", "seal", "bent","pause", "record", "tiny", "burly", "lock", "hot", "cat", "lamp", "monitor", "play", "big","lumberjack", "boy","republican","farsighted","motherland","dermatoglyphics","uncopyrightable"]
-
+correctlist = []
+incorrectlist = []
 
 aim_word = (random.choice(words))
 
@@ -19,7 +20,7 @@ wordlen = wordlen
 wordleft = wordlen
 
 #Trys
-trys = wordlen + 4
+trys = 6
 int (trys)
   
 # Program seen by user
@@ -31,11 +32,11 @@ print ("The word is", wordlen, "letters long")
 while wordleft > 0:
 
   correctletters = ""
-  
+  incorrectletters = ""
   
   guess = input("Guess a letter:")
-  print("Correctly guessed letters are: ", ''.join(guess if guess
-	 in correctletters else '-' for guess in aim_word))
+  print("Correctly guessed letters are: ", ''.join(guess if guess 
+	 in correctlist else '-' for guess in aim_word))
 
   letno=(aim_word.find(guess))
   guesslen=len(guess) 
@@ -47,15 +48,25 @@ while wordleft > 0:
     exit()
   int (wordleft)
  
-  if letno < 0:
+  if letno < 0 or letno > wordlen:
     trys = trys - 1 
     print("That letter isnt present")
-    if trys == 4:
+    incorrectlist.append(guess)
+    if trys == 6:
+      print("""
+      O
+     """)
+    elif trys == 5:
       print("""
       O
      -|-
-     / \\
      """)
+    elif trys == 4:
+      print("""
+       O
+      -|-
+      / \\
+      """)
     elif trys == 3:
       print("""
         O
@@ -84,16 +95,26 @@ while wordleft > 0:
   |    -|-
   |    / \\
   ---------""")
+      print("You die")
+      print("The right word was", aim_word)
       exit()
 
 
   else:
     print ("Well done you guessed correctly you guessed letter no:", letno+1)
     wordleft = wordleft-1
-    correctletters = correctletters + guess
-    
-    
+    correctlist.append(guess)
+  
+  print("Your incorrectly guessed letters are",incorrectlist)
+  print("Correctly guessed letters are: ", ''.join(guess if guess 
+	 in correctlist else '-' for guess in aim_word))
+  print(""" 
+        
+        
+        """)
 
+  
+print("well done you got the right word")
 
 
 
