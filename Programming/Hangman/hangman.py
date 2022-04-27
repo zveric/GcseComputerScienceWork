@@ -7,7 +7,9 @@ import random;
 #Aim Word
 
 # List of words
-words = [ "spare", "shade","guitar", "sneaky", "mark", "size", "cut", "savory", "yam", "bead", "thin", "poke", "foamy", "exotic","champ", "seal", "bent","pause", "record", "tiny", "burly", "lock", "hot", "cat", "lamp", "monitor", "play", "big","lumberjack", "boy","republican","farsighted","motherland","dermatoglyphics","uncopyrightable"]
+words = [ "spare", "shade","guitar", "sneaky", "mark", "size", "cut", "savory", "yam", "bead", "thin", "poke", "foamy", "exotic","champ", "seal", "bent","pause", "record", "tiny", "burly", "lock", "hot", "cat", "lamp", "monitor", "play", "big","lumberjack","boy","republican","farsighted","motherland","dermatoglyphics","uncopyrightable","mega","midget","david","smelly","amongus","ant","baboon","badger","bat","bear","beaver","camel","cat","clam","cobra","cougar","coyote","crow","deer","dog","donkey","duck","eagle","ferret","fox","frog","goat","goose","hawk","lion","lizard","llama","mole","monkey","moose","mouse","mule","newt","otter","owl","panda","parrot","pigeon","python","rabbit","ram","rat","raven","rhino","salmon","seal","shark","sheep","skunk","sloth","snake","spider","stork","swan","tiger","toad","trout","turkey","turtle","weasel","whale","wolf","wombat","zebra"]
+
+
 correctlist = []
 incorrectlist = []
 
@@ -52,9 +54,14 @@ while wordleft > 0:
     trys = trys - 1 
     print("That letter isnt present")
     incorrectlist.append(guess)
-    if trys == 6:
+    if trys == 7:
       print("""
       O
+     """)
+    elif trys == 6:
+      print("""
+      O
+      |
      """)
     elif trys == 5:
       print("""
@@ -112,9 +119,10 @@ while wordleft > 0:
         
         
         """)
+print("well done you got the right word")
 
   
-print("well done you got the right word")
+
 
 
 

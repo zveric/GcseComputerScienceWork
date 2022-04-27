@@ -1,6 +1,18 @@
 trys =  4
 
-if trys == 4:
+if trys == 6:
+  print("""
+      O
+     """)
+
+
+elif trys == 5:
+  print("""
+      O
+     -|-
+     """)
+
+elif trys == 4:
   print("""
       O
      -|-
