@@ -1,5 +1,10 @@
 ### Types of sorting algorithm
 
+There are are many types of sorting algorithm. 
+- bubble sort.
+- merge sort.
+- insertion sort.
+
 
 
 
