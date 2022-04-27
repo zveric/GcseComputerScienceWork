@@ -1,8 +1,7 @@
 def insertionSort(arr):
    for i in range(1, len(arr)):
       key = arr[i]
-      # Move elements of arr[0..i-1], that are greater
-      #than key,
+      # Move elements of arr[0..i-1], that are greaterthan key,
       # to one position ahead of their current position
       j = i-1 # j is the seccond to last item (i think)
       while j >=0 and key < arr[j] :# while j is not below 0  and key is less than j, keeps looping until sorted
