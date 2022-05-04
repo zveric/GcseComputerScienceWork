@@ -11,6 +11,3 @@ Watch us struggle.
 
 
 https://zveric.github.io/GcseComputerScienceWork/
-
-
-Eric : "dave is made of cheese and he is also the beez kneez"
